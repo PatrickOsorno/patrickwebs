@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicoElectoral</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/candidato.css" />
+</head>
+
+<body>
+
+    <div id="outer">
+        <header id="header">
+
+            <br>
+            <h1>Tico-Electoral</h1>
+            <p>Este sitio web tiene la finalidad de informar la actividad de los
+                candidatos, planes de gobierno resultado de encuestas, videos y audios, etc.</p>
+            <br>
+        </header>
+
+        <nav id="menu">
+            <div id="container">
+                <a class="principal" href="index.html">Inicio</a>
+                <a class="principal" href="index.html#candidatos">Candidatos</a>
+                <a class="principal" href="encuestas.html">Encuestas</a>
+                <a class="principal" href="#footer">Acerca de...</a>
+            </div>
+        </nav>
+
+        <main id="principalcontent">
+            <div id="primarycontent">
+                <div>
+                    <img src="imagenes/alvarado.jpg" alt="">
+                    <ul>
+                        <li>Nombre: Fabricio Alvarado Muñoz</li>
+                        <li>Partido: Nueva Republica (PNR)</li>
+                    </ul>
+                    <br>
+                    <a href="https://www.tse.go.cr/fichas/static/a055f66761bc34f9661219502fa05188/267_1_108820284.pdf">Plan de Gobierno</a>
+                    <a href="https://www.tse.go.cr/fichas/candidaturas/P/p-PNR/108820284">Sitio Oficial</a>
+                </div>
+
+                <section>
+                    <h3>HACIA UNA COSTA RICA INTELIGENTE: LA VISIÓN IDEOLÓGICA DE NUEVA 
+                        REPÚBLICA</h3>
+                    <br>
+                    <p>La ideología de nuestra agrupación se funda en los principios republicanos históricos, de 
+                        tradición judeocristiana occidental, anclados en nuestra cultura costarricense, como 
+                        heredera de toda esta construcción moral y política de la humanidad, en la que el respeto 
+                        al Estado de Derecho y la cuidadosa geometría política de pesos y contrapesos para evitar 
+                        la concentración indebida del poder en la gestión de los asuntos públicos -de la cosa 
+                        pública- son abrazados como los pilares más importantes para proteger lo más valioso para 
+                        este pensamiento político: la dignidad de la persona humana en condiciones de libertad, 
+                        igualdad y solidaridad, y su capacidad para el bien de sí mismo y de los demás.</p>
+                        <br>
+                    <h3>EL ESTADO ESTRATÉGICO: UNA HERRAMIENTA VITAL PARA LA NUEVA 
+                        REPÚBLICA</h3>
+                    <br>
+                    <p>La visión del Estado para la Nueva República parte del principio supremo que define el rol 
+                        funcional del sector público en términos de la construcción del bien común de las 
+                        sociedades territorialmente delimitadas. En una circunscripción nacional concreta, el 
+                        Estado tiene la función de promover la cooperación social dentro del territorio, con el fin de 
+                        promover el mayor desarrollo humano para todos sus habitantes. La función política del 
+                        aparato estatal es objetiva, en el entendido de que dicha cooperación se logra mediante un 
+                        conjunto de estructuras funcionales que se expresan en el aparato estatal, frente a otras 
+                        funciones sociales igualmente importantes, como la económica, mediante el mercado, o la 
+                        cultural, mediante las instituciones educativas o religiosas, por ejemplo (Heller, 1995).
+                        En este sentido, nuestra visión del Estado siempre se atendrá a su relación de coexistencia 
+                        con las otras funciones sociales que comandan la vida social, v.g. la económica y la cultural, 
+                        para señalar las más obvias, puesto que partimos de la base de que ante la enorme 
+                        complejidad que caracteriza a las sociedades contemporáneas, el Estado debe mantener 
+                        equilibrios apropiados respecto de las otras operaciones funcionales con las que transa, de 
+                        cara al funcionamiento diario de sus instituciones (Luhmann, 1997). </p>
+                </section>
+            </div>
+
+            <div id="secondarycontent">
+                <div id="media">
+                    <h3>Video</h3>
+                    <video src="videos/El mensaje de Fabricio Alvarado tras los últimos resultados.mp4" type="video/mp4" controls>
+                    </video>
+                    <br>
+                    <h3>Audio</h3>
+                    <br>
+                    <audio src="audios/Costa Rica volvamos a ser ejemplo para el mundo.mp3" controls>
+                    </audio>
+                    <h3>Youtube</h3>
+                    <br>
+                    <iframe src="https://www.youtube.com/embed/PWbmUNAcaXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+
+            <credit>&copy; Derechos Reservados Tico-Electoral 2021</credit>
+            <p>Autor: Patrick Osorno</p>
+            <div id="date">Feb 11, 2021</div>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toDateString()
+            </script>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

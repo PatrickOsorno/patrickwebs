@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicoElectoral</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/candidato.css" />
+</head>
+<body>
+    
+    <div id="outer">
+        <header id="header">
+
+            <br>
+            <h1>Tico-Electoral</h1>
+            <p>Este sitio web tiene la finalidad de informar la actividad de los 
+                candidatos, planes de gobierno resultado de encuestas, videos y audios, etc.</p>
+            <br>
+        </header>
+
+        <nav id="menu">
+            <div id="container">
+                <a class="principal" href="index.html">Inicio</a>
+                <a class="principal" href="index.html#candidatos">Candidatos</a>
+                <a class="principal" href="encuestas.html">Encuestas</a>
+                <a class="principal" href="#footer">Acerca de...</a>
+            </div>
+        </nav>
+
+        <main id="principalcontent">
+            <div id="primarycontent">
+                <div>
+                    <img src="imagenes/chavez.jpg" alt="">
+                    <ul>
+                        <li>Nombre: Rodrigo Chavez Robles</li>
+                        <li>Partido: Progreso Social Democrático (PSD)</li>
+                    </ul>
+                    <br>
+                    <a href="https://www.tse.go.cr/fichas/static/09931b175dba95bb924d69c9102ca790/245_1_105600795.pdf">Plan de Gobierno</a>
+                    <a href="https://www.tse.go.cr/fichas/candidaturas/P/p-PSD/105600795">Sitio Oficial</a>
+                </div>
+
+                <section>
+                    <h3>DESPERTAR NUESTRA ECONOMÍA</h3>
+                    <br>
+                    <p>Todo empieza por acelerar nuestra economía para generar empleos, atraer 
+                        inversiones, consolidar nuevas empresas y fortalecer nuestras exportaciones. 
+                        Usted tiene nuestra promesa: vamos a terminar, de una vez por todas, con la tramitomanía, las trabas e intervenciones excesivas del Estado y los costos abusivos. ¡Los dejaremos trabajar, sin estorbar</p>
+                        <br>
+                    <h3>FRENO A LA CORRUPCIÓN</h3>
+                    <br>
+                    <p>La desenfrenada corrupción nacional nos empobrece a todos, nos roba a todos, 
+                        nos reduce la calidad y cantidad de los servicios públicos. Nuestra propuesta 
+                        empieza por poner a jerarcas honestos: los mejores hombres y mujeres para los 
+                        puestos y no los mejores puestos para los amigos.</p>
+                    <br>
+                    <h3>EDUCACIÓN: MOTOR DE OPORTUNIDADES</h3>
+                    <br>
+                    <p>Aunque invertimos proporcionalmente más que cualquier país de la OCDE en 
+                        educación, nuestro desempeño es el peor. Gastamos más como porcentaje del 
+                        PIB que Finlandia, Singapur, Vietnam, Colombia o Uruguay. No queremos seguir 
+                        engañando a las futuras generaciones con educación que no genera empleo y 
+                        progreso. Nos empeñaremos en fomentar pensamiento crítico, creatividad, comunicación y colaboración en nuestros niños y jóvenes.</p>
+                </section>
+            </div>
+
+            <div id="secondarycontent">
+                <div id="media">
+                    <h3>Video</h3>
+                    <video src="videos/Se acerca el día para salir a votar Rodrigo Chaves del Partido Progreso Social Democrático.mp4" type="video/mp4" controls>
+                    </video>
+                    <br>
+                    <h3>Audio</h3>
+                    <br>
+                    <audio src="audios/Rodrigo Chaves Robles No se debe despedir empleados públicos.mp3" controls>
+                    </audio>
+                    <h3>Youtube</h3>
+                    <br>
+                    <iframe src="https://www.youtube.com/embed/KM9K0jjDzi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+
+
+        <footer id="footer">
+
+            <credit>&copy; Derechos Reservados Tico-Electoral 2021</credit>
+            <p>Autor: Patrick Osorno</p>
+            <div id="date">Feb 11, 2021</div>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toDateString()
+            </script>
+    
+        </footer>
+
+    </div>
+
+</body>
+</html>

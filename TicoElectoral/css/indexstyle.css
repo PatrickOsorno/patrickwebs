@@ -1,0 +1,42 @@
+#principalcontent{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+
+#primarycontent{
+    margin-left: 5px;
+}
+
+
+iframe{
+    height: 25vw;
+    width: 25vw;
+}
+
+
+#secondarycontent ul {
+   margin-left: 30px;
+   font-size: 14px;
+}
+
+
+#candidatos table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+#encuestas table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+}
+
+#encuestas table tr td img{
+    width: 100%;
+    height: 100%;
+}

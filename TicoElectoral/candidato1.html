@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicoElectoral</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/candidato.css" />
+</head>
+
+<body>
+
+    <div id="outer">
+        <header id="header">
+
+            <br>
+            <h1>Tico-Electoral</h1>
+            <p>Este sitio web tiene la finalidad de informar la actividad de los
+                candidatos, planes de gobierno resultado de encuestas, videos y audios, etc.</p>
+            <br>
+
+        </header>
+
+        <nav id="menu">
+            <div id="container">
+                <a class="principal" href="index.html">Inicio</a>
+                <a class="principal" href="index.html#candidatos">Candidatos</a>
+                <a class="principal" href="encuestas.html">Encuestas</a>
+                <a class="principal" href="#footer">Acerca de...</a>
+            </div>
+        </nav>
+
+        <main id="principalcontent">
+            <div id="primarycontent">
+                <div>
+                    <img src="imagenes/figueres.jpg" alt="">
+                    <ul>
+                        <li>Nombre: José María Figueres Olsen</li>
+                        <li>Partido: Liberación Nacional (PLN)</li>
+                    </ul>
+                    <br>
+                    <a href="https://www.tse.go.cr/fichas/static/b4bb2e245b1b1e8c3fede6a6feb6063f/4_1_104790979.pdf">Plan de Gobierno</a>
+                    <br>
+                    <a href="https://www.tse.go.cr/fichas/candidaturas/P/p-PLN/104790979">Sitio Oficial</a>
+                </div>
+
+                <section>
+                    <h3>Vía Costarricense Proyecto País</h3>
+                    <br>
+                    <p>La Vía Costarricense proyecto país es un movimiento cívico que trasciende fronteras partidarias.
+                        Busca incorporar a todos los sectores de la sociedad. Es un espacio abierto que convoca a los
+                        ciudadanos identificados con la necesidad de un cambio profundo en el rumbo de nuestra sociedad.
+                        Su objetivo es desarrollar una visión compartida de la mejor Costa Rica posible, y realizarla en
+                        las décadas por venir. Como único requisito, espera de quienes participen un renovado sentido de
+                        responsabilidad personal frente a nuestro desarrollo, una disposición abierta a todas las
+                        posiciones y una actitud constructiva.
+                        Nuestro sueño es uno: reinventar Costa Rica para que muchas más personas puedan aspirar al Bien
+                        Vivir; aportar ideas innovadoras para edificar un mejor país, para hallar de nuevo el rumbo
+                        costarricense. Nuestro método es la participación. Por eso nacimos invitando a la ciudadanía
+                        costarricense a compartir sus ideas y propuestas, y asumir un rol protagónico en el diseño de la
+                        nueva Costa Rica.</p>
+                        <br>
+                    <h3>Ruta 2021 | Empleo</h3>
+                    <br>
+                    <p>Hoy en Costa Rica enfrentamos una crisis de empleo con un 10% de personas sin trabajo y que se
+                        refleja directamente en el 20% de la población que se encuentra en situación de pobreza. Debemos
+                        implementar las medidas necesarias que nos permitan cambiar el panorama para el año 2021, el
+                        bicentenario de nuestra Costa Rica.</p>
+                    <ul>
+                        <li>350,000 empleos nuevos - reducción del desempleo al 5%</li>
+                        <li>60,000 familias fuera de la pobreza - disminución al 15% de personas en esta situación</li>
+                        <li>Bajar las emisiones de carbono - lograr la carbono neutralidad en el país</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div id="secondarycontent">
+                <div id="media">
+                    <h3>Video</h3>
+                    <video src="videos/Este 06 de Febrero CostaRicaMereceGanar.mp4" type="video/mp4" controls>
+                    </video>
+                    <br>
+                    <h3>Audio</h3>
+                    <br>
+                    <audio src="audios/Conectividad.mp3" controls>
+                    </audio>
+                    <h3>Youtube</h3>
+                    <br>
+                    <iframe src="https://www.youtube.com/embed/YJFa5HKJTP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <credit>&copy; Derechos Reservados Tico-Electoral 2021</credit>
+            <p>Autor: Patrick Osorno</p>
+            <div id="date">Feb 11, 2021</div>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toDateString()
+            </script>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
