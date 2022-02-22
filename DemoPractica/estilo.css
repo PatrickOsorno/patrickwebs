@@ -1,0 +1,42 @@
+.contenedor{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagenes_columna{
+    margin: 5px;
+}
+
+.imagenes .contenedor{
+    display: grid;
+}
+
+@media(min-width: 520px) {
+    .imagenes .contenedor{
+        grid-template-columns: repeat(2,50%);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(min-width: 728px) {
+    .imagenes .contenedor{
+        grid-template-columns: repeat(3,33.3%);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .imagenes .contenedor{
+        grid-template-columns: repeat(3,25%);
+        width: 100%;
+        height: 100%;
+    }
+}
