@@ -1,0 +1,87 @@
+.fondo{
+    background-color: lightgray;
+    width: 100%;
+    border: 2px solid black;
+
+}
+.head{
+    background-color: tomato;
+}
+
+.encabezado{
+    background-color: mediumseagreen;
+    width: 100%;
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.lia {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+.navegacion{
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.principal{
+    background-color: lightskyblue;
+    width: 100%;
+}
+.informacion{
+    background-color: lightyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.tabla{
+    background-color: lightyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.encabezadoTabla{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.celda{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagenes{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px #fff;
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+}
