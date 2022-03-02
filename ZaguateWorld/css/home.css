@@ -1,0 +1,158 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  font-size: larger;
+  font-family: Yanone Kaffeesatz; 
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#container { 
+  background: transparent url(../images/grass.png) repeat-x bottom;
+}
+
+#main{
+  background-color: #fff;
+  margin: 0 auto;
+  width: 75%;
+  padding: 15px;
+  margin-top: -12%;
+}
+
+#principal{
+  display: inline-flex;
+}
+
+#principal article{
+  display: flex;
+  height: 50%;
+  text-align: justify;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#principal article div h1{
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E5017D;
+}
+
+#principal article div{
+  font-size: 17px;
+}
+
+#principal article ol{
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+#principal article img{
+  width: 35%;
+  height: 35%;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 20px;
+  padding: 10px;
+  border: solid lightgray 1px;
+}
+
+#principal div{
+  width: 100%;
+}
+
+#principal div aside{
+  background-color: #F5FEFF;
+  border: solid #C9E5E9 1px;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+}
+
+#principal div aside ul{
+  list-style: none;
+  margin-left: 10px;
+}
+
+#principal div aside p{
+  margin-bottom: 5px;
+  margin-left: 7px;
+}
+
+#principal div aside h1{
+  color: #81e602;
+  margin-bottom: 5px;
+}
+
+#encabezado img{
+width: 100%;
+}
+
+#navegacion{
+  background-color: #53C7FD;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#navegacion a{
+  color: #fff;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 25px 10px 25px;
+}
+
+#navegacion :hover{
+  color: #E5017D;
+}
+
+footer{
+  background-color: #53C7FD;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: 1px solid #fff;
+}
+
+footer a.last{
+  border-right: none;
+}
+
+footer div {
+  margin-bottom: 15px;
+}
+footer div :hover{
+  color: #E5017D;
+}
