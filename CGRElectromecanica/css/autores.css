@@ -1,0 +1,15 @@
+.principal{
+    background-color: lightgray;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.imagen{
+    text-align: center;
+}
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    border: solid #7B8A8B 3px;
+    text-align: center;
+}
