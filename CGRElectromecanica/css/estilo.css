@@ -20,3 +20,20 @@ body{
 .fondopie{
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+.principal{
+    background-color: lightgray;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.imagen{
+    text-align: center;
+} 
+
+.imagen img{
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    border: solid gray 2px;
+}

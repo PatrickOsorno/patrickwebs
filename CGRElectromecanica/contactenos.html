@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="CGR, Electromecanica, Taller, arreglo de maquinaria pesada" />
   <title>CGRElectromecanica</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/estilo.css">
@@ -16,7 +15,6 @@
 
 <body>
   <div class="container">
-
     <header class="row encabezado">
       <div class="col-12">
         <img class="img-fluid" src="img/logo.jpeg" alt="">
@@ -38,7 +36,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contactenos.html">Contáctenos</a>
+                  <a class="nav-link" href="#">Contáctenos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Acerca de nosotros</a>
@@ -51,7 +49,7 @@
                     <a class="dropdown-item" href="#">Servicios</a>
                     <a class="dropdown-item" href="#">Imágenes</a>
                     <a class="dropdown-item" href="#">¿Dónde nos ubicamos?</a>
-                    <a class="dropdown-item" href="#">Autores</a>
+                    <a class="dropdown-item" href="autores.html">Autores</a>
                   </div>
                 </li>
               </ul>
@@ -62,35 +60,63 @@
     </div>
 
     <div class="row principal">
-      <h1 class="text-center">Autores</h1>
-      <div class="col-sm-6 col-md-6 col-lg-6">
-        <div class="imagen">
-          <img src="img/melissa.jpeg" alt="">
-          <h3>Melissa Arce Gamboa</h3>
+
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <h3 class="text-center">Información de contacto</h3>
+        <div>
+          <img src="" alt="">
         </div>
         <ul>
-          <li>Cedula: </li>
-          <li>E-mail: <a href="mailto:melissapag9152002@gmail.com">melissapag9152002@gmail.com</a>
-          </li>
-          <li>Teléfono: +(506)6145-3984</li>
-          <li>Edad: 20 años</li>
-          <li>Estudiante de la carrera de Ingeniería del Software (ISW) en la UTN</li>
+          <li>Nombre del encargado: </li>
+          <li>Número de teléfono: </li>
+          <li>Email: </li>
+          <li>Dirección: </li>
         </ul>
       </div>
 
-      <div class="col-sm-6 col-md-6 col-lg-6">
-        <div class="imagen">
-          <img src="img/patrick.jpeg" alt="">
-          <h3>Patrick Osorno Rojas</h3>
-        </div>
-        <ul>
-          <li>Cedula: 5-437-456</li>
-          <li>E-mail: <a href="mailto:patosorno01@gmail.com">patosorno01@gmail.com</a>
-          </li>
-          <li>Teléfono: +(506)8365-2980</li>
-          <li>Edad: 21 años</li>
-          <li>Estudiante de la carrera de Ingeniería del Software (ISW) en la UTN</li>
-        </ul>
+      <div class="col-sm-7 col-md-7 col-lg-7">
+        <h3 class="text-center">Más información</h3>
+        <form action="">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+          </div>
+
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre completo</label>
+            <input type="email" class="form-control" id="name" placeholder="Digite su nombre completo">
+          </div>
+
+          <div class="mb-3">
+            <label for="date" class="form-label">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+
+          <div class="mb-3">
+            <label for="genero" class="form-label">Género</label>
+            <select class="form-select" id="genero">
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>No especifica</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="gradoAcad" class="form-label mt-4">Grado académico</label>
+            <select multiple="" class="form-select" id="gradoAcad">
+              <option>Primaria incompleta</option>
+              <option>Primaria completa</option>
+              <option>Secundaria incompleta</option>
+              <option>Secundaria completa</option>
+              <option>Educación superior incompleta</option>
+              <option>Educación superior completa</option>
+            </select>
+          </div>
+
+          <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary ">Solicitar información</button>
+          </div>
+        </form>
       </div>
     </div>
 
