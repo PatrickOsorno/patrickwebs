@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="css/estilo.css">
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/icons.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
   <link href="css/fuente.css" rel="stylesheet">
-  <link href="css/home.css" rel="stylesheet">
 </head>
 
 <body>
@@ -42,16 +42,16 @@
                   <a class="nav-link" href="contactenos.html">Contáctenos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Acerca de nosotros</a>
+                  <a class="nav-link" href="acercade.html">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                     aria-expanded="false">Contenidos</a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Historia</a>
-                    <a class="dropdown-item" href="#">Servicios</a>
-                    <a class="dropdown-item" href="#">Imágenes</a>
-                    <a class="dropdown-item" href="#">¿Dónde nos ubicamos?</a>
+                    <!--<a class="dropdown-item" href="historia.html">Historia</a>-->
+                    <a class="dropdown-item" href="servicios.html">Servicios</a>
+                    <a class="dropdown-item" href="imagenes.html">Imágenes</a>
+                    <a class="dropdown-item" href="ubicacion.html">¿Dónde nos ubicamos?</a>
                     <a class="dropdown-item" href="autores.html">Autores</a>
                   </div>
                 </li>
@@ -61,7 +61,7 @@
         </nav>
       </div>
     </div>
-    
+
     <div class="row principal">
       <aside class="col-sm-6 col-md-4 col-lg-4">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
@@ -88,12 +88,58 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+        <br>
+        <h4 class="text-center">Algunos de nuestros servicios</h4>
+        <div class="mb-3 infoservicios">
+          <i class="fa-solid fa-wrench"></i>
+          <a href="">Cambio de rótulas</a>
+        </div>
 
+        <div class="mb-3 infoservicios">
+          <i class="fa-solid fa-wrench"></i>
+          <a href="">Reparación de alternadores</a>
+        </div>
+
+        <div class="mb-3 infoservicios">
+          <i class="fa-solid fa-wrench"></i>
+          <a href="">Reparacion de arrancadores</a>
+        </div>
+
+        <div class="mb-3 infoservicios">
+          <i class="fa-solid fa-wrench"></i>
+          <a href="">Fallas electromecánicas</a>
+        </div>
+
+        <div class="mb-3 infoservicios">
+          <i class="fa-solid fa-wrench"></i>
+          <a href="">Reparación de motores</a>
+        </div>
+
+        <div class="mb-3 infoservicios">
+          <i class="fa-solid fa-wrench"></i>
+          <a href="">Pintura</a>
         </div>
       </aside>
 
       <article class="col-sm-6 col-md-8 col-lg-8">
-
+        <h2 class="text-center">¿Por qué nosotros?</h2>
+        <p class="txt">Somos su mejor opción cuando de mecánica y pintura se trata, en cuanto a mecánica nos
+          epecializamos principalmente en maquinaria pesada, y en pintura en todos los acabados, también contamos con
+          servicio a domicilio y nuestros precios se adaptan a su bolsillo.</p>
+        <div id="img" class="imgHome">
+          <img src="img/home.jpeg" alt="">
+        </div>
+        <script src="js/animaciones.js"></script>
+        <br>
+        <h3>¡Te ofrecemos nuestro mejor servicio!</h3>
+        <ul>
+          <li>Servicio a domicilio.</li>
+          <li>Buen precio.</li>
+          <li>Trabajo con los mejores repuestos.</li>
+          <li>Acabados de pintura muy pulidos</li>
+          <li>Un excelente servicio.</li>
+        </ul>
       </article>
     </div>
 
@@ -121,4 +167,5 @@
     </footer>
   </div>
 </body>
+
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="css/estilo.css">
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/icons.js"></script>
+ 
   <link href="css/fuente.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -39,16 +41,15 @@
                   <a class="nav-link" href="#">Contáctenos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Acerca de nosotros</a>
+                  <a class="nav-link" href="acercade.html">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                     aria-expanded="false">Contenidos</a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Historia</a>
-                    <a class="dropdown-item" href="#">Servicios</a>
-                    <a class="dropdown-item" href="#">Imágenes</a>
-                    <a class="dropdown-item" href="#">¿Dónde nos ubicamos?</a>
+                    <a class="dropdown-item" href="servicios.html">Servicios</a>
+                    <a class="dropdown-item" href="imagenes.html">Imágenes</a>
+                    <a class="dropdown-item" href="ubicacion.html">¿Dónde nos ubicamos?</a>
                     <a class="dropdown-item" href="autores.html">Autores</a>
                   </div>
                 </li>
@@ -67,34 +68,36 @@
           <img src="" alt="">
         </div>
         <ul>
-          <li>Nombre del encargado: </li>
-          <li>Número de teléfono: </li>
-          <li>Email: </li>
-          <li>Dirección: </li>
+          <li>Nombre del encargado: César Gamboa </li>
+          <li>Número de teléfono: +(506)7023-5889</li>
+          <li>Email: <a href="mailto:Cgamboa943@gmail.com">Cgamboa943@gmail.com</a></li>
+          <li>Dirección: Calle pedregal 50 norte   de helechos exóticos (Fraijanes)</li>
         </ul>
       </div>
 
       <div class="col-sm-7 col-md-7 col-lg-7">
-        <h3 class="text-center">Más información</h3>
-        <form action="">
+        <h3 class="text-center">Registro</h3>
+        <form id="formulario" action="">
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            <input type="email" class="form-control" id="email" name="correo" placeholder="nombre@ejemplo.com" required>
+            <p class="inputError" id="mensajeCorreo">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
           </div>
 
           <div class="mb-3">
             <label for="name" class="form-label">Nombre completo</label>
-            <input type="email" class="form-control" id="name" placeholder="Digite su nombre completo">
+            <input type="text" class="form-control" id="name" name="nombre" placeholder="Escriba su nombre completo" >
+            <p class="inputError" id="mensajeNombre">El correo solo puede contener letras y espacios.</p>
           </div>
 
           <div class="mb-3">
-            <label for="date" class="form-label">Fecha de nacimiento</label>
-            <input type="date" class="form-control" id="date">
+            <label for="fecha" class="form-label">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="fecha" >
           </div>
 
           <div class="mb-3">
             <label for="genero" class="form-label">Género</label>
-            <select class="form-select" id="genero">
+            <select class="form-select" id="genero" > 
               <option>Masculino</option>
               <option>Femenino</option>
               <option>No especifica</option>
@@ -143,6 +146,7 @@
       </div>
     </footer>
   </div>
+  <script src="js/formulario.js"></script>
 </body>
 
 </html>
